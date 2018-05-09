@@ -1,5 +1,7 @@
 # Repository for "Predicting extragalactic distance errors using Bayesian inference in multi-measurement catalogs" paper
 
+https://arxiv.org/abs/1805.02578
+
 G. Chaparro Molano, J.C. Cuervo, O.A. Restrepo Gaitán, S. Torres Arzayús
 
 ## Data tables
