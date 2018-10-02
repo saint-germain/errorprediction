@@ -8,7 +8,7 @@
  they do not provide any evidence that this is the case for the data sets they
  study.
 
-Answer: The underlying systematics are identical, as the same method for determining distances is used.
+Answer: The underlying systematics are identical, as the same method for determining distances is used. Additionally, our error prediction for missing TF errors in HyperLEDA using the NED-D-based model coincide very well with estimated TF errors in HyperLEDA, even though the the NED-D model is completely independent of HyperLEDA. We believe this shows that the model is indeed extracting features that are related to systematic errors in the TF method for distance determination. This discussion was relegated to the appendix originally, but because of its importance we moved this discussion to the main body of the manuscript for this corrected version.
 
 To do: Show distribution of measurements with no errors vs all TF measurements.
 
@@ -23,6 +23,8 @@ To do: Show distribution of measurements with no errors vs all TF measurements.
  and indicates that results with a small number of measruements N cannot be
  trusted.
 
+Answer: In this case, more measurements increase our knowledge of systematic uncertainties in distance measurements. 
+
 To do: Somehow show how errors behave as a function of N. Multiple regplots without data points!!
 
 - It appears that the Bayesian quadratic model only works, in terms of the
@@ -33,7 +35,7 @@ To do: Somehow show how errors behave as a function of N. Multiple regplots with
  except for very specific cases.  Why does the model break down?  What happens
  to observations that are not fulfillying this requirement?
 
-Answer: The quadratic model works under very limited conditions, and the posterior shows that the random error component is degenerate (and ultimately unnecesary, as the median is zero), which is why we decide to use a simpler linear model. The linear model works better given that ...%%% how do I explain this? The degenerate parameter included in the quadratic model increases the randomness of the error around the expected values of the probability of each galaxy.
+Answer: The quadratic model works under very limited conditions, and the posterior shows that the random error component is degenerate (and ultimately unnecesary, as the median is zero), which is why we decide to use a simpler linear model. The degenerate parameter included in the quadratic model increases the randomness of the error around the expected values of the probability of each galaxy, which is why the linear model works better at not overpredicting the error.
 
 - It is not clear why it is useful to estimate the variance of the predicted
  measurement uncertainty.  Typically one would be happy with the expected/mean
@@ -46,7 +48,7 @@ Answer: This is only shown to justify the choice of variance in the likelihood. 
  discussed above, the size of the H model error seems to depend on the number
  of TF measurements N.  
 
-To do: Check if this is true. How?
+Answer: Same as above (answer #1).
 
  This means that the specific models that the authors
  derive (Bayesian linear and quadratic models) only work for observations of
@@ -56,7 +58,7 @@ To do: Check if this is true. How?
  with a smaller number of distance measurements, which means that the results
  are of limited use.
 
-Answer: While it is true that the success of the predictive model depends on N, this is only due to blablabla. Given that the 818 galaxies for which we predict errors previously had no reported errors, our prediction (which is not based on any significant assumption about the galaxies, other than the fact that the distance range changes with N, an effect that we include) is better than having no errors at all (which renders the reported measurement almost useless when taken individually). The galaxies for which the model works do not have particular physical properties that make them special, other than having a bias towrds closer distances, which we include in our reported prediction (with a * which indicates that the galaxy is outside of the predictive distance range).
+Answer: While it is true that the success of the predictive model depends on N, this is only due to XXXXXX. Given that the 818 galaxies for which we predict errors previously had no reported errors, our prediction (which is not based on any significant assumption about the galaxies, other than the fact that the distance range changes with N, an effect that we include) is better than having no errors at all (which renders the reported measurement almost useless when taken individually). The galaxies for which the model works do not have particular physical properties that make them special, other than having a bias towrds closer distances, which we include in our reported prediction (with a * which indicates that the galaxy is outside of the predictive distance range).
 
 
 Minor concerns
@@ -82,7 +84,9 @@ Answer: If the frequentist P and/or Q errors were representative of the uncertai
  do not understand why instead symmetric error bars are chosen for the four
  models.
 
-Answer: This is a reasonable comment, which is why H errors are now reported in our data tables in terms of distinct lower and upper limits. M, P, and Q errors are by definition symmetric.
+Answer: We now also report H errors in our data tables in terms of distinct lower and upper limits. M, P, and Q errors are by definition symmetric.
+
+To do: Calculate upper and lower limits.
 
 - Fig. 5: It is not clear how the bootstrap realizations were calculated.  Is
  this somehow using the same number of measurements per galaxy that were in
@@ -90,7 +94,7 @@ Answer: This is a reasonable comment, which is why H errors are now reported in 
 
 Answer: Yes, as indicated in Eq. %%%%%
 
-To do: Give number to equation with sum of lognormals. Also, say in the text that this is the distribution we sample.
+To do: Give number to equation with sum of lognormals. Also, say in the text that this is the distribution we sample. Also, make clear that symmetric is only an approximation at lage N due to CLT.
 
 - In Fig. 6, I'm wondering whether the p-value is correctly defined.  A larger
  p-value (red points) seem to correspond to more points with a larger
