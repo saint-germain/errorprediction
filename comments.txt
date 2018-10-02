@@ -107,3 +107,14 @@ Answer: The Bayesian p-value for the red points is closer to 0.5 than the Bayesi
  correspond to smaller p-values.  Does this fit together? 
 
 Answer: As mentioned above, the quadratic model tends to overpredict randomness, whereas the opposite is the case for the linear model.
+
+List of to-do's:
+
+1. Show distribution of galaxies with missing errors vs galaxies with errors (show that they are not different).
+2. Show how error changes with N. Do for TF and in general.
+3. Get percentiles for non-reported TF galaxies.
+4. Calculate hmin and hmax
+5. Move discussion of hyperleda to text
+6. Change text re: H errors not being symmetric. 
+7. Argue that all errors should tend to H and CLT argument for symmetry at large N.
+8. Check symmetry argument (compare H to hmin and hmax).
