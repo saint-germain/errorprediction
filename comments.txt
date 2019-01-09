@@ -134,7 +134,8 @@ DONE 11. Try 2018 catalog - linear model
 8. Check symmetry argument (compare H to hmin and hmax).
 15. Try 2018 catalog - quad model
 16. Redo stuff for 2018 catalog?
-17. Compare 2018 and 2017 TF catalogs -> there's something fish about lack of TF measurements.
+17. Compare 2018 and 2017 TF catalogs -> there's something fishy about lack of TF measurements.
+18. Update original repo (plots in /mnras/)
 
 Text:
 5. Move discussion of hyperleda to text
