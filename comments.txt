@@ -81,7 +81,7 @@ Minor concerns
  distance errors, it is important know how many measurements (without distance
  errors) were actually done per galaxy.
 
-Answer: About 50% have more than one TF measurement. The most TF measurements are 6. However, as mentioned in the answer above, the number of measurements only indicates a working distance range, which we consider in our model. Furthermore, we indicate when predictions are outside of this working range in Figs. XXX-predictions.
+Answer: About 70% have more than one TF measurement, and 5% have more than 4 measurements. The most TF measurements are 13. However, as mentioned in the answer above, the number of measurements only indicates a working distance range, which we consider in our model. About 80 out of 900 galaxies are located outside the model's distance working range. We indicate when predictions are outside of this working range in Figs. XXX-predictions.
 
 - The authors use as starting point for combining potentially discrepant
  distance measures a Gaussian mixture model, giving equal weight to all of the
@@ -132,10 +132,11 @@ DONE 10. Change colors+markers in prediction
 DONE 11. Try 2018 catalog - linear model
 4. Calculate hmin and hmax
 8. Check symmetry argument (compare H to hmin and hmax).
-15. Try 2018 catalog - quad model
-16. Redo stuff for 2018 catalog?
-17. Compare 2018 and 2017 TF catalogs -> there's something fishy about lack of TF measurements.
+DONE 15. Try 2018 catalog - quad model
+DONE 16. Redo stuff for 2018 catalog
+DONE 17. Compare 2018 and 2017 TF catalogs -> there's something fishy about lack of TF measurements.
 18. Update original repo (plots in /mnras/)
+20. Clean up notebooks
 
 Text:
 5. Move discussion of hyperleda to text
@@ -144,3 +145,4 @@ Text:
 12. Rewrite text to separate two parts of study
 13. Change N to N_TF in text
 14. Re-reference plots in answers.
+19. Mention 2018 catalog in answers.
