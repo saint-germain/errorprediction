@@ -135,8 +135,8 @@ DONE 11. Try 2018 catalog - linear model
 DONE 15. Try 2018 catalog - quad model
 DONE 16. Redo stuff for 2018 catalog
 DONE 17. Compare 2018 and 2017 TF catalogs -> there's something fishy about lack of TF measurements.
-18. Update original repo (plots in /mnras/)
-20. Clean up notebooks
+DONE 18. Update original repo (plots in /mnras/)
+DONE 20. Clean up notebooks
 
 Text:
 5. Move discussion of hyperleda to text
@@ -148,4 +148,4 @@ Text:
 19. Mention 2018 catalog in answers
 21. Pair up plots
 22. Update numbers, percentiles parts of text
-23. Mention that all CF data has reported error
+23. Mention that all CF data has reported errors
