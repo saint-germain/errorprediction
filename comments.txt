@@ -97,7 +97,7 @@ Answer: If the frequentist P and/or Q errors were representative of the uncertai
  do not understand why instead symmetric error bars are chosen for the four
  models.
 
-Answer: We now also report H errors in our data tables in terms of distinct lower and upper limits. M, P, and Q errors are by definition symmetric. We should note, however, that 95 percent of all H errors are less than 15% asymmetric and 95 percent of errors for galaxies with more than 15 measurements are less than 5 Mpc asymmetric.
+Answer: We now also report H errors in our data tables in terms of distinct lower and upper limits. M, P, and Q errors are by definition symmetric. We should note, however, that 95 percent of all H errors are less than 15% asymmetric and 95 percent of errors for galaxies with more than 15 measurements are less than 5 Mpc asymmetric. For H errors calculated for the HyperLEDA catalog, 95 percent of all H errors are less than 8% asymmetric and 95 percent of errors for galaxies with more than 2 measurements are less than 6 Mpc asymmetric.
 
 To do: Calculate upper and lower limits.
 
@@ -147,3 +147,5 @@ Text:
 14. Re-reference plots in answers
 19. Mention 2018 catalog in answers
 21. Pair up plots
+22. Update numbers, percentiles parts of text
+23. Mention that all CF data has reported error
