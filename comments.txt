@@ -97,7 +97,7 @@ Answer: If the frequentist P and/or Q errors were representative of the uncertai
  do not understand why instead symmetric error bars are chosen for the four
  models.
 
-Answer: We now also report H errors in our data tables in terms of distinct lower and upper limits. M, P, and Q errors are by definition symmetric.
+Answer: We now also report H errors in our data tables in terms of distinct lower and upper limits. M, P, and Q errors are by definition symmetric. We should note, however, that 95 percent of all H errors are less than 15% asymmetric and 95 percent of errors for galaxies with more than 15 measurements are less than 5 Mpc asymmetric.
 
 To do: Calculate upper and lower limits.
 
@@ -127,11 +127,11 @@ Calculations/code:
 DONE 1. Show distribution of galaxies with missing errors vs galaxies with errors (show that they are not different). Histogram.
 DONE 2. Show how error changes with N. Do for TF and in general.
 DONE 3. Get percentiles for non-reported TF galaxies.
+DONE 4. Calculate hmin and hmax
+DONE 8. Check symmetry argument (compare H to hmin and hmax).
 DONE 9. Change N to N_TF
 DONE 10. Change colors+markers in prediction
 DONE 11. Try 2018 catalog - linear model
-4. Calculate hmin and hmax
-8. Check symmetry argument (compare H to hmin and hmax).
 DONE 15. Try 2018 catalog - quad model
 DONE 16. Redo stuff for 2018 catalog
 DONE 17. Compare 2018 and 2017 TF catalogs -> there's something fishy about lack of TF measurements.
@@ -144,5 +144,6 @@ Text:
 7. Argue in the text that all errors should tend to H and CLT argument for symmetry at large N.
 12. Rewrite text to separate two parts of study
 13. Change N to N_TF in text
-14. Re-reference plots in answers.
-19. Mention 2018 catalog in answers.
+14. Re-reference plots in answers
+19. Mention 2018 catalog in answers
+21. Pair up plots
