@@ -99,15 +99,11 @@ Answer: If the frequentist P and/or Q errors were representative of the uncertai
 
 Answer: We now also report H errors in our data tables in terms of distinct lower and upper limits. M, P, and Q errors are by definition symmetric. We should note, however, that 95 percent of all H errors are less than 15% asymmetric and 95 percent of errors for galaxies with more than 15 measurements are less than 5 Mpc asymmetric. For H errors calculated for the HyperLEDA catalog, 95 percent of all H errors are less than 8% asymmetric and 95 percent of errors for galaxies with more than 2 measurements are less than 6 Mpc asymmetric.
 
-To do: Calculate upper and lower limits.
-
 - Fig. 5: It is not clear how the bootstrap realizations were calculated.  Is
  this somehow using the same number of measurements per galaxy that were in
  the original galaxy catalogue?
 
-Answer: Yes, as indicated in Eq. %%%%%
-
-To do: Give number to equation with sum of lognormals. Also, say in the text that this is the distribution we sample. Also, make clear that symmetric is only an approximation at lage N due to CLT.
+Answer: Yes, as indicated in Eq. %%%%%. This is now made clear in the text.
 
 - In Fig. 6, I'm wondering whether the p-value is correctly defined.  A larger
  p-value (red points) seem to correspond to more points with a larger
@@ -149,3 +145,4 @@ Text:
 21. Pair up plots
 22. Update numbers, percentiles parts of text
 23. Mention that all CF data has reported errors
+24. Give number to equation with sum of lognormals. Also, say in the text that how we sample this distribution.
