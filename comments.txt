@@ -120,7 +120,7 @@ Answer: As mentioned above, the quadratic model tends to overpredict randomness,
 List of to-do's:
 
 Calculations/code:
-DONE 1. Show distribution of galaxies with missing errors vs galaxies with errors (show that they are not different). Histogram.
+DONE 1. Show distribution of galaxies with missing errors vs galaxies with errors (show that they are not different).
 DONE 2. Show how error changes with N. Do for TF and in general.
 DONE 3. Get percentiles for non-reported TF galaxies.
 DONE 4. Calculate hmin and hmax
@@ -131,18 +131,21 @@ DONE 11. Try 2018 catalog - linear model
 DONE 15. Try 2018 catalog - quad model
 DONE 16. Redo stuff for 2018 catalog
 DONE 17. Compare 2018 and 2017 TF catalogs -> there's something fishy about lack of TF measurements.
-DONE 18. Update original repo (plots in /mnras/)
+18. Update original repo (plots in /mnras/)
 DONE 20. Clean up notebooks
+DONE 27. Re calculate percentiles for NED-D 2018.
 
 Text:
-5. Move discussion of hyperleda to text
+DONE 5. Move discussion of hyperleda to text
 6. Change text re: H errors not being symmetric. 
 7. Argue in the text that all errors should tend to H and CLT argument for symmetry at large N.
 12. Rewrite text to separate two parts of study
-13. Change N to N_TF in text
+DONE 13. Change N to N_TF in text
 14. Re-reference plots in answers
-19. Mention 2018 catalog in answers
-21. Pair up plots
+19. Mention 2018 catalog and backward compatibility (also in answers).
+DONE 21. Pair up plots
 22. Update numbers, percentiles parts of text
-23. Mention that all CF data has reported errors
+DONE 23. Mention that all CF data has reported errors
 24. Give number to equation with sum of lognormals. Also, say in the text that how we sample this distribution.
+DONE 25. Add fields to appendices (hmax and hmin)
+26. Add rel error plots
