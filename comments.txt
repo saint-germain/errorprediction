@@ -15,15 +15,11 @@ Answer: The underlying systematics are identical, because we attempt this predic
  model H (at e.g. 200 Mpc) depends on the number of underlying measurements.
  I would like to see how these plots look for N>15 or N>20, similar to what is
  used in the Bayesian linear and quadratic models.  The fact that the error
- bars grow as function of N ... 
-
-Answer: The scale of the error (relative error) does not depend on the limiting number of measurements. We now include a D vs sigma plot (Figure XXX-new) which shows that the slope remains similar even for galaxies with a large number of distance measurements. 
-
-- ... suggests that individual errors of the distance
+ bars grow as function of N suggests that individual errors of the distance
  measures are somewhat systematically underestimated.   This point is
  important and must be discussed.  
 
-Answer: Frequentist methods both over- and underestimate errors, as Fig. XXX shows. If they were appropriate measures of the scatter, they would coincide better with H/M error trends. This is now made clear in the text.
+Answer: Frequentist methods both over- and underestimate errors, as the new Fig. 1 shows (including NED-D data for all distance determination methods). If they were appropriate measures of the scatter, they would coincide better with H/M error trends. This is now made clear in the text. For TF-only NED-D data, the scale of the error (relative error) does not (strongly) depend on the limiting number of measurements. We now include D vs sigma_h and sigma_M plot (Figure 4) which shows that the slope remains similar even for galaxies with a large number of distance measurements. An exception appears for Fig. 4 (left), which shows that when N_TF=2, the H relative error is significantly lower than for a higher threshold. This shows method H's usefulness at estimating errors in a way that is both conservative and realistic.
 
 - If anything, this trend should be the
  opposite (more measurements should increase our knowledge, not decrease it),
@@ -43,27 +39,27 @@ Answer: The quadratic model works under very limited conditions, and the posteri
  values of N.  It is not clear how such a model could be generally useful,
  except for very specific cases.  
 
-Answer: This is true, our model is only useful for predicting missing TF errors within the same distance range as the data points used to inform the model. Incidentally, most galaxies with missing TF errors are within or very near the distance range of the data points used to inform the model, as Fig. XXX (the one in the appendix). We do not attempt to predict missing distance errors for methods other than TFR, although we think it could be done in the future.
+Answer: This is true, our model is only useful for predicting missing TF errors within the same distance range as the data points used to inform the model. Incidentally, most galaxies with missing TF errors are within or very near the distance range of the data points used to inform the model, as Figs. 14-15 show. We do not attempt to predict missing distance errors for methods other than TFR, although we think it could be done in the future.
 
 - Why does the model break down?  What happens
  to observations that are not fulfillying this requirement?
 
-Answer: The model works at a high threshold N_TF because the Central Limit Theorem implies that "when independent random variables are added, their properly normalized sum tends toward a normal distribution [...] even if the original variables themselves are notnormally distributed". Thus, it is easier to estimate the systematic (true) variance from those measurements than from galaxies with a low number of measurements. Still, one should keep in mind that our predictions are almost worse case scenarios for unknown errors (the worst case scenario being having no errors at all).
+Answer: The model works at a high threshold N_TF because the Central Limit Theorem implies that "when independent random variables are added, their properly normalized sum tends toward a normal distribution [...] even if the original variables themselves are notnormally distributed". Thus, it is easier to estimate the systematic (true) variance from those measurements than from galaxies with a low number of measurements. Still, one should keep in mind that our predictions are very conservative scenarios for unknown errors (the worst case scenario being having no errors at all).
 
 - It is not clear why it is useful to estimate the variance of the predicted
  measurement uncertainty.  Typically one would be happy with the expected/mean
  uncertainty alone.  What is the variance of the uncertainty good for in
  practice?
 
-Answer: This is shown only to justify the choice of the variance model (variance \propto D) in the likelihood.
+Answer: This is shown only to justify the choice of having this variance being proportional to the error(variance \propto sigma_D) in our model.
  
 - It is not clear to me what kind of errors the authors want to predict.  As
  discussed above, the size of the H model error seems to depend on the number
  of TF measurements N.  
 
-Answer: The scale of the error (relative error) for TF distance measurements does not depend significantly on N_TF. We now include a D vs sigma plot (Figure XXX-newTF) which shows that the slope remains similar even for galaxies with a large number of distance measurements. 
+Answer: The scale of the error (relative error) for TF distance measurements does not strongly depend significantly on N_TF. We now include a D vs sigma plot (Figure 4) which shows that the slope remains similar even for galaxies with a large number of distance measurements. 
 
- This means that the specific models that the authors
+- This means that the specific models that the authors
  derive (Bayesian linear and quadratic models) only work for observations of
  galaxies with a similar number of N.  It is not clear whether the 818
  galaxies for which they use their results actually fulfill this criterion.
@@ -71,7 +67,7 @@ Answer: The scale of the error (relative error) for TF distance measurements doe
  with a smaller number of distance measurements, which means that the results
  are of limited use.
 
-Answer: It is true that the success of the predictive model depends on N (answer #XXX). However, our prediction is not based on any significant assumption about the galaxies, other than the fact that the distance range changes with N. The galaxies for which the linear model works do not have particular physical properties that make them special, other than having a bias towards closer distances, which we include in our reported prediction (with a * which indicates that the galaxy is outside of the predictive distance range). The 818 galaxies for which we predict errors previously had no reported errors, and our systematics-based prediction is better than having no errors at all. 
+Answer: It is true that the success of the predictive model depends on N (as mentioned above). However, our prediction is not based on any significant assumption about the galaxies, other than the fact that the distance range changes with N. The galaxies for which the linear model works do not have particular physical properties that make them special, other than having a bias towards closer distances, which we include in our reported prediction (with a * which indicates that the galaxy is outside of the predictive distance range). 
 
 
 Minor concerns
@@ -81,7 +77,7 @@ Minor concerns
  distance errors, it is important know how many measurements (without distance
  errors) were actually done per galaxy.
 
-Answer: About 70% have more than one TF measurement, and 5% have more than 4 measurements. The most TF measurements are 13. However, as mentioned in the answer above, the number of measurements only indicates a working distance range, which we consider in our model. About 80 out of 900 galaxies are located outside the model's distance working range. We indicate when predictions are outside of this working range in Figs. XXX-predictions.
+Answer: About 70% have more than one TF measurement, and 5% have more than 4 measurements. The most TF measurements are 13. However, as mentioned in the answer above, the number of measurements only indicates a working distance range, which we consider in our model. About 80 out of 900 galaxies in NED-D, and 3 out of 203 in HyperLEDA are located outside the model's distance working range. We indicate when predictions are outside of this working range in Figs. 14-15.
 
 - The authors use as starting point for combining potentially discrepant
  distance measures a Gaussian mixture model, giving equal weight to all of the
@@ -110,7 +106,7 @@ Answer: Yes, as indicated in Eq. %%%%%. This is now made clear in the text.
  simulated discrepancy.  This is directly opposite to the definition of the
  Bayesian p-value.
 
-Answer: The Bayesian p-value for the red points is closer to 0.5 than the Bayesian p-values for larger N, which is the goal of this test.
+Answer: The goal of this test is to find the lowest threshold at which that the Bayesian p-value is closer to 0.5, which indicates the largest possible number of error data that can be predicted by the model.
 
 - In Fig. 6, larger N correspond to larger p-values, in Fig. 9, larger N
  correspond to smaller p-values.  Does this fit together? 
@@ -137,7 +133,7 @@ DONE 27. Re calculate percentiles for NED-D 2018.
 
 Text:
 DONE 5. Move discussion of hyperleda to text
-6. Change text re: H errors not being symmetric. 
+6. Change text re: H errors not being symmetric for low N
 7. Argue in the text that all errors should tend to H and CLT argument for symmetry at large N.
 12. Rewrite text to separate two parts of study
 DONE 13. Change N to N_TF in text
@@ -148,4 +144,5 @@ DONE 21. Pair up plots
 DONE 23. Mention that all CF data has reported errors
 24. Give number to equation with sum of lognormals. Also, say in the text that how we sample this distribution.
 DONE 25. Add fields to appendices (hmax and hmin)
-26. Add rel error plots
+DONE 26. Add rel error plots
+DONE 28. Rewrite abstract.
