@@ -44,7 +44,7 @@ Answer: This is true, our model is only useful for predicting missing TF errors 
 - Why does the model break down?  What happens
  to observations that are not fulfillying this requirement?
 
-Answer: The model works at a high threshold N_TF because the Central Limit Theorem implies that "when independent random variables are added, their properly normalized sum tends toward a normal distribution [...] even if the original variables themselves are notnormally distributed". Thus, it is easier to estimate the systematic (true) variance from those measurements than from galaxies with a low number of measurements. Still, one should keep in mind that our predictions are very conservative scenarios for unknown errors (the worst case scenario being having no errors at all).
+Answer: The model works at a (relatively) high threshold N_TF because the Central Limit Theorem implies that "when independent random variables are added, their properly normalized sum tends toward a normal distribution [...] even if the original variables themselves are notnormally distributed". Thus, it is easier to estimate the systematic (true) variance from those measurements than from galaxies with a low number of measurements. Still, one should keep in mind that our predictions are very conservative scenarios for unknown errors (the worst case scenario being having no errors at all).
 
 - It is not clear why it is useful to estimate the variance of the predicted
  measurement uncertainty.  Typically one would be happy with the expected/mean
@@ -99,7 +99,7 @@ Answer: We now also report H errors in our data tables in terms of distinct lowe
  this somehow using the same number of measurements per galaxy that were in
  the original galaxy catalogue?
 
-Answer: Yes, as indicated in Eq. %%%%%. This is now made clear in the text.
+Answer: Yes, as indicated in Eq.1. The corresponding section was rewritten to better explain way the distribution of D_G is sampled.
 
 - In Fig. 6, I'm wondering whether the p-value is correctly defined.  A larger
  p-value (red points) seem to correspond to more points with a larger
@@ -127,22 +127,25 @@ DONE 11. Try 2018 catalog - linear model
 DONE 15. Try 2018 catalog - quad model
 DONE 16. Redo stuff for 2018 catalog
 DONE 17. Compare 2018 and 2017 TF catalogs -> there's something fishy about lack of TF measurements.
-18. Update original repo (plots in /mnras/)
+18. Update original repo (plots in /mnras/ and notebooks)
 DONE 20. Clean up notebooks
 DONE 27. Re calculate percentiles for NED-D 2018.
+30. Clean up repos
 
 Text:
 DONE 5. Move discussion of hyperleda to text
-6. Change text re: H errors not being symmetric for low N
-7. Argue in the text that all errors should tend to H and CLT argument for symmetry at large N.
-12. Rewrite text to separate two parts of study
+DONE 6. Change text re: H errors not being symmetric for low N
+DONE 7. Argue in the text that all errors should tend to H and CLT argument for symmetry at large N.
+DONE 12. Rewrite text to separate two parts of study
 DONE 13. Change N to N_TF in text
-14. Re-reference plots in answers
+DONE 14. Re-reference plots in answers
 19. Mention 2018 catalog and backward compatibility (also in answers).
 DONE 21. Pair up plots
-22. Update numbers, percentiles parts of text
+DONE 22. Update numbers, percentiles parts of text
 DONE 23. Mention that all CF data has reported errors
-24. Give number to equation with sum of lognormals. Also, say in the text that how we sample this distribution.
+DONE 24. Give number to equation with sum of lognormals. Also, say in the text that how we sample this distribution.
 DONE 25. Add fields to appendices (hmax and hmin)
 DONE 26. Add rel error plots
 DONE 28. Rewrite abstract.
+DONE 29. Explain model choice of error of error
+31. Update answers according to changes in text.
