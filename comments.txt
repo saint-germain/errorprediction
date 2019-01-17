@@ -1,3 +1,5 @@
+In our consideration we have adressed all the concerns that the referee has raised, and we have restructured the text in a way that we think will make our goals clearer to any reader. In particular, we moved the discussion on the prediction for Tully-Fisher relation distance errors for the HyperLEDA catalog from the Appendix to the main text, which we think further validates our approach to predicting distance errors. We hope that with the inclusion of new plots, an update of data tables that now include lower and upper limits to distance estimates, and re-writing of a key parts of all sections, the editor and referee can further consider our manuscript for publication. 
+
 - The authors try to infer the uncertainties of a set of measurements without
  quoted error bars from a set of measurements with quoted error bars.  This
  can only reasonably work if there are good arguments why the two sets of
@@ -127,10 +129,10 @@ DONE 11. Try 2018 catalog - linear model
 DONE 15. Try 2018 catalog - quad model
 DONE 16. Redo stuff for 2018 catalog
 DONE 17. Compare 2018 and 2017 TF catalogs -> there's something fishy about lack of TF measurements.
-18. Update original repo (plots in /mnras/ and notebooks)
+DONE 18. Update original repo (plots in /mnras/ and notebooks)
 DONE 20. Clean up notebooks
 DONE 27. Re calculate percentiles for NED-D 2018.
-30. Clean up repos
+DONE 30. Clean up repos
 
 Text:
 DONE 5. Move discussion of hyperleda to text
@@ -139,7 +141,7 @@ DONE 7. Argue in the text that all errors should tend to H and CLT argument for 
 DONE 12. Rewrite text to separate two parts of study
 DONE 13. Change N to N_TF in text
 DONE 14. Re-reference plots in answers
-19. Mention 2018 catalog and backward compatibility (also in answers).
+DONE 19. Mention 2018 catalog and backward compatibility (also in answers).
 DONE 21. Pair up plots
 DONE 22. Update numbers, percentiles parts of text
 DONE 23. Mention that all CF data has reported errors
@@ -149,3 +151,5 @@ DONE 26. Add rel error plots
 DONE 28. Rewrite abstract.
 DONE 29. Explain model choice of error of error
 31. Update answers according to changes in text.
+DONE 32. Update filenames for plots
+DONE 33. Strengthen conclusion
