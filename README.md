@@ -5,8 +5,6 @@
 - [Published Version](https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stz615/5368374?redirectedFrom=fulltext)
 - Preprint: https://arxiv.org/abs/1805.02578
 
-G. Chaparro Molano, J.C. Cuervo, O.A. Restrepo Gaitán, S. Torres Arzayús
-
 ## Data tables
 
 Pre-computed error tables for the redshift indepentent extragalactic distance catalogs in HyperLEDA, NED-D, and Cosmicflows-3.
