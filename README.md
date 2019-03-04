@@ -1,6 +1,6 @@
 # Repository for "Predicting extragalactic distance errors using Bayesian inference in multi-measurement catalogs" paper
 
-## Germán Chaparro-Molano, Juan Carlos Cuervo, Oscar Alberto Restrepo Gaitán, Sergio Torres Arzayús; Predicting extragalactic distance errors using Bayesian inference in multi-measurement catalogs, Monthly Notices of the Royal Astronomical Society, , stz615, https://doi.org/10.1093/mnras/stz615
+#### Germán Chaparro-Molano, Juan Carlos Cuervo, Oscar Alberto Restrepo Gaitán, Sergio Torres Arzayús; Predicting extragalactic distance errors using Bayesian inference in multi-measurement catalogs, Monthly Notices of the Royal Astronomical Society, , stz615, https://doi.org/10.1093/mnras/stz615
 
 - [Published Version](https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stz615/5368374?redirectedFrom=fulltext)
 - Preprint: https://arxiv.org/abs/1805.02578
