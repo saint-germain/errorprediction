@@ -1,6 +1,7 @@
 # Repository for "Predicting extragalactic distance errors using Bayesian inference in multi-measurement catalogs" paper
 
-https://arxiv.org/abs/1805.02578
+- [Published Version](https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stz615/5368374?redirectedFrom=fulltext)
+- Preprint: https://arxiv.org/abs/1805.02578
 
 G. Chaparro Molano, J.C. Cuervo, O.A. Restrepo Gaitán, S. Torres Arzayús
 
