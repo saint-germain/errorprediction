@@ -1,6 +1,6 @@
 # Repository for "Predicting extragalactic distance errors using Bayesian inference in multi-measurement catalogs" paper
 
-#### Germán Chaparro-Molano, Juan Carlos Cuervo, Oscar Alberto Restrepo Gaitán, Sergio Torres Arzayús; Predicting extragalactic distance errors using Bayesian inference in multi-measurement catalogs, Monthly Notices of the Royal Astronomical Society, , stz615, https://doi.org/10.1093/mnras/stz615
+#### Germán Chaparro-Molano, Juan Carlos Cuervo, Oscar Alberto Restrepo Gaitán, Sergio Torres Arzayús; Predicting extragalactic distance errors using Bayesian inference in multi-measurement catalogs, Monthly Notices of the Royal Astronomical Society, Volume 485, Issue 3, May 2019, Pages 4343–4358, https://doi.org/10.1093/mnras/stz615
 
 - [Published Version](https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stz615/5368374?redirectedFrom=fulltext)
 - Preprint: https://arxiv.org/abs/1805.02578
@@ -14,6 +14,12 @@ Pre-computed error tables for the redshift indepentent extragalactic distance ca
 - [Cosmicflows-3](cf3_bootstrap_results.csv)
 
 ## Notebooks
+
+These notebooks are Binder-compatible [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/saint-germain/errorprediction/master)
+
+- [Computing TFR distance errors in NED-D](computing_errors.ipynb)
+- [Bayesian models for our pre-computed TFR distance errors for NED-D](bayesian_models.ipynb)
+- [Predicting missing TFR distance errors in NED-D](prediction_errors.ipynb)
 
 - [Computing distance errors in Cosmicflows-3](errors_Cosmicflows-3.ipynb)
 - [Computing distance errors in NED-D](errors_NED-D.ipynb)
