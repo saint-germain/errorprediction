@@ -1,7 +1,7 @@
 numpy
 jupyter
 notebook
-matplotlib
+matplotlib==2.2.2
 seaborn
 emcee
 corner
