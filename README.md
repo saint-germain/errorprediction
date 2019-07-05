@@ -7,7 +7,7 @@
 
 ## Data tables
 
-Pre-computed error tables for the redshift indepentent extragalactic distance catalogs in HyperLEDA, NED-D, and Cosmicflows-3.
+Pre-computed error tables for the redshift independent extragalactic distance catalogs in HyperLEDA, NED-D, and Cosmicflows-3.
 
 - [HyperLEDA](hl_bootstrap_results.csv)
 - [NED-D](ned_bootstrap_results.csv)
@@ -21,9 +21,10 @@ These notebooks are Binder-compatible [![Binder](https://mybinder.org/badge_logo
 - [Bayesian models for our pre-computed TFR distance errors for NED-D](bayesian_models.ipynb)
 - [Predicting missing TFR distance errors in NED-D](prediction_errors.ipynb)
 
+Notebooks with the computation of errors for the full HyperLEDA, NED-D, and Cosmicflows-3 catalogs:
+
 - [Computing distance errors in Cosmicflows-3](errors_Cosmicflows-3.ipynb)
 - [Computing distance errors in NED-D](errors_NED-D.ipynb)
-- [Predicting missing TFR distance errors in NED-D](correctdiscrepancy.ipynb)
 - [Computing distance errors and predicting missing TFR distance errors in HyperLEDA](errors_HyperLEDA.ipynb)
 
 
