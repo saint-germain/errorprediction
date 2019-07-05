@@ -1,0 +1,7 @@
+numpy
+jupyter
+notebook
+matplotlib
+seaborn
+emcee
+corner
